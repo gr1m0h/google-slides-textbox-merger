@@ -1,0 +1,18 @@
+{
+  "name": "slides-textbox-merger",
+  "version": "0.1.0",
+  "description": "Merge fragmented text boxes in Google Slides into one (with code indentation recovery).",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "login": "clasp login",
+    "push": "clasp push",
+    "open": "clasp open",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0"
+  }
+}
